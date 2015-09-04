@@ -178,13 +178,12 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('https://images.unsplash.com/photo-1430877027050-6184f6f6b80e?q=80&fm=jpg&s=efbd626a455f68ad23aff583ac84fa74');
+    background-image: url('https://unsplash.it/1920/1080/?image=394');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-attachment:fixed;
 }
 
 header .header-content {
@@ -262,7 +261,7 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 100%;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -273,8 +272,8 @@ header .header-content .header-content-inner p {
     height: 100%;
     text-align: center;
     color: #fff;
-    opacity: 0;
-    background: rgba(240,95,64,.9);
+    opacity: .5;
+    background: rgba(0,0,0,.7);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -475,7 +474,7 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-#about, #delivery{
+#delivery{
     background-image: url('http://www.wokandrolldc.com/image/bg.gif');
 }
 
